@@ -343,6 +343,7 @@ int main(int argc, char *argv[])
     const int screenHeight = 380;
 
     InitWindow(screenWidth, screenHeight, TextFormat("%s v%s", toolName, toolVersion));
+    EnableEventWaiting();
     SetExitKey(0);
 
     // GUI: Main Layout
